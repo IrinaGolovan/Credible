@@ -76,4 +76,11 @@ public class ProfileLoanRequestPage {
         return new RequestRatesPage();
     }
 
+    public boolean isProfileLoanRequestPageAvailable(){
+        firstName_InputBox.waitForElementsToBePresent(20);
+        if(firstName_InputBox.isDisplayed() == true) {
+            return true;
+        }
+        return false;
+    }
 }

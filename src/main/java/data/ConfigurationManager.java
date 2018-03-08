@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class ConfigurationManager {
 
     private static WebDriver driver;
-    private int implicitWait = 10;
+    private int implicitWait = 40;
     private static final Logger logger = Logger.getLogger(ConfigurationManager.class);
     private String chromeDriver = "D:\\Credible_Task\\src\\main\\resources\\webdriver\\chromedriver\\chromedriver.exe";
     private String firefoxDriver = "D:\\Credible_Task\\src\\main\\resources\\webdriver\\firefoxdriver\\geckodriver.exe";

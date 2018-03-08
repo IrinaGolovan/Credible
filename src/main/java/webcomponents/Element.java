@@ -16,7 +16,7 @@ public abstract class Element extends ConfigurationManager{
 
     private By by;
     private List<WebElement> webElements;
-    private int defaulttimeout = 10;
+    private int defaulttimeout = 20;
     private static final Logger logger = Logger.getLogger(Element.class);
 
     public Element(By by){
